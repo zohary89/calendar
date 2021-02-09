@@ -67,3 +67,5 @@ def filter_dates(
         event for event in events
         if start <= event.start.date() <= end
     )
+
+"try"
